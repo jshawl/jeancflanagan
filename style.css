@@ -102,12 +102,14 @@ header {
   color: hsla(190, 16%, 9%, 1);
   font: normal 400 16px Calluna, Georgia, serif;
   font: normal 400 1em Calluna, Georgia, serif;
-  line-height: 1.5;
+  line-height: 1.375;
   min-height: 16em;
-  padding: 1em;
+  padding: .25em .75em;
 }
 
 .cardicle article h1 {
+  color: #21759b;
+  color: hsla(190, 65%, 36%, 1);
   font: normal 600 1.2em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
 }
@@ -117,18 +119,42 @@ header {
 }
 
 .cardicle article footer {
-  bottom: 1em;
   font-size: .875em;
-  margin: 1em 0 0 0;
-  right: 1em;
+  margin: 1em 0;
   text-align: right;
 }
 
 
 /*** Formatting and typography ***/
 
+* {
+  -moz-transition: 100ms;
+  -webkit-transition: 100ms;
+  -o-transition: 100ms;
+  transition: 100ms;
+}
+
+body {
+  background: #fff;
+  background: hsla(320, 100%, 100%, 1);
+  color: #151c1d;
+  color: hsla(190, 16%, 9%, 1);
+  font: normal 16px Calluna, Georgia, serif;
+  font: normal 1rem Calluna, Georgia, serif;
+}
+
+a,
+a:visited {
+  color: #21759b;
+  color: hsla(190, 65%, 36%, 1);
+}
+
 header hgroup {
   text-align: center;
+}
+
+header a {
+  text-decoration: none;
 }
 
 header h1 {
@@ -141,14 +167,6 @@ header h2 {
   font-size: 1rem;
 }
 
-body {
-  background: #fff;
-  background: hsla(320, 100%, 100%, 1);
-  color: #151c1d;
-  color: hsla(190, 16%, 9%, 1);
-  font: normal 16px Calluna, Georgia, serif;
-  font: normal 1rem Calluna, Georgia, serif;
-}
 
 /*** Media queries ***/
 
