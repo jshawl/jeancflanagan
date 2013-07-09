@@ -69,6 +69,19 @@ header {
   margin-top: 5%;
 }
 
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav ul li:last-child {
+  margin: 0;
+}
+
 /*** Cards ***/
 
 .archive {
