@@ -21,7 +21,7 @@ Most K-12 science teachers are fairly disconnected from the research world once 
 
 The disconnect also stems from unfortunate misperceptions of professors by teachers and teachers by professors. Both groups often discount each other’s knowledge bases and workloads. Professors can harbor elitist attitudes about teachers, discounting the value of practical classroom experience in determining what works in education. Teachers frequently claim that professors suffer from “Ivory Tower Syndrome” — the assumption here is that professors live cushy lives, sheltered from the realities of schools, and therefore can’t produce knowledge that is useful in today’s classrooms. A high school teacher quoted by Gore and Gitlin explained:
 
-“A lot of what [researchers] think is based on the past and they are out of touch. And so we call it the Ivory Tower. Welcome to our world.”
+“A lot of what researchers think is based on the past and they are out of touch. And so we call it the Ivory Tower. Welcome to our world.”
 
 When I asked high school science teacher Laurie Almeida how she perceived the credibility of science education research, she responded:
 
