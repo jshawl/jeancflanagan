@@ -226,6 +226,7 @@ nav {
   .cardicle {
     max-width: 20em;
   }
+
 }
 
 @media screen and (min-width: 30em) {
@@ -234,6 +235,7 @@ nav {
   .cardicle {
     max-width: 25em;
   }
+
 }
 
 @media screen and (min-width: 42em) {
@@ -243,6 +245,7 @@ nav {
     max-width: 42em;
   }
 
+  /* becomes 2 columns for the first time here */
   .cardicle {
     float: left;
     margin: 0 .5em;
@@ -250,7 +253,7 @@ nav {
   }
 
   .cardicle article {
-    min-height: 16em;
+    min-height: 17em;
   }
 
 }
@@ -266,17 +269,39 @@ nav {
     width: 25em;
   }
 
+  .cardicle article {
+    min-height: 15em;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
   .archive {
-    max-width: 64em;
+    max-width: 63em;
+  }
+
+  /* Becomes 3 columns for the first time here. */
+  .cardicle {
+    width: 20em;
+  }
+
+  .cardicle article {
+    min-height: 17em;
+  }
+
+}
+
+@media screen and (min-width: 80em) {
+  /* i.e. 1280px */
+
+  .archive {
+    max-width: 66em;
   }
 
   .cardicle {
-    width: 20em;
+    margin: .5em 1em;
   }
 
 }
@@ -285,26 +310,15 @@ nav {
   /* i.e. 1440px */
 
   .archive {
-    max-width: 78em;
+    max-width: 81em;
   }
 
   .cardicle {
     width: 25em;
   }
 
-}
-
-@media screen and (min-width: 100em) {
-  /* i.e. 1600px */
-
-}
-
-@media screen and (min-width: 120em) {
-  /* i.e. 1920px */
-
-}
-
-@media screen and (min-width: 70em) {
-  /* i.e. 1120px */
+  .cardicle article {
+    min-height: 15em;
+  }
 
 }
