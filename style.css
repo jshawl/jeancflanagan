@@ -107,61 +107,6 @@ nav ul li:last-child {
 }
 
 
-/*** Cards ***/
-
-.archive {
-  margin: 0 auto;
-  width: 16em;
-}
-
-.cardicle {
-  float: left;
-  list-style: none;
-  margin: 0 auto;
-  max-width: 16em;
-  padding: .5em;
-  width: 100%;
-}
-
-.cardicle a {
-  text-decoration: none;
-}
-
-.cardicle a :hover, 
-.cardicle a :focus {
-  /* TODO */
-}
-
-.cardicle article {
-  background: hsla(190, 10%, 99.5%, 1);
-  box-shadow: #d5dadd 0 2px 1px 1px;
-  box-shadow: hsla(200, 10%, 85%, .8) 0 2px 1px 1px;
-  color: hsla(190, 16%, 9%, 1);
-  line-height: 1.375;
-  min-height: 16em;
-  padding: .25em .75em;
-}
-
-.cardicle article h1 {
-  color: #21759b;
-  color: hsla(220, 84%, 65%, 1);
-  font: normal 400 20px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  font: normal 400 1.25rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0;
-}
-
-.cardicle article p {
-  margin: 1em 0;
-}
-
-.cardicle article footer {
-  font: normal 400 14px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  margin: 1em 0;
-  text-align: right;
-}
-
-
 /*** Formatting and typography ***/
 
 body {
@@ -215,6 +160,60 @@ nav {
 .post header h1 {
   font-size: 20px;
   font-size: 1.25rem;
+}
+
+
+/*** Cards ***/
+
+.archive {
+  margin: 0 auto;
+  width: 16em;
+}
+
+.cardicle {
+  float: left;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 16em;
+  padding: .5em;
+  width: 100%;
+}
+
+.cardicle a {
+  text-decoration: none;
+}
+
+.cardicle a :hover, 
+.cardicle a :focus {
+  /* TODO */
+}
+
+.cardicle article {
+  background: hsla(190, 10%, 99.5%, 1);
+  box-shadow: #d5dadd 0 2px 1px 1px;
+  box-shadow: hsla(200, 10%, 85%, .8) 0 2px 1px 1px;
+  color: hsla(190, 16%, 9%, 1);
+  line-height: 1.375;
+  min-height: 16em;
+  padding: .75em;
+}
+
+.cardicle article h1 {
+  color: #21759b;
+  color: hsla(220, 84%, 65%, 1);
+  font: normal 400 20px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.25rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0;
+}
+
+.cardicle article p {
+  margin: 1em 0;
+}
+
+.cardicle article footer {
+  font: normal 400 14px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  text-align: right;
 }
 
 
