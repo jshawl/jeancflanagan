@@ -94,7 +94,7 @@ nav ul li:last-child {
 }
 
 .post {
-  margin: 1em 5%;
+  padding: 1em 5%;
 }
 
 .post header {
@@ -133,11 +133,9 @@ nav ul li:last-child {
 }
 
 .cardicle article {
-  background: #fefefe;
   background: hsla(190, 10%, 99.5%, 1);
   box-shadow: #d5dadd 0 2px 1px 1px;
   box-shadow: hsla(200, 10%, 85%, .8) 0 2px 1px 1px;
-  color: #151c1d;
   color: hsla(190, 16%, 9%, 1);
   line-height: 1.375;
   min-height: 16em;
@@ -146,7 +144,7 @@ nav ul li:last-child {
 
 .cardicle article h1 {
   color: #21759b;
-  color: hsla(190, 65%, 36%, 1);
+  color: hsla(220, 84%, 65%, 1);
   font: normal 400 20px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   font: normal 400 1.25rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
@@ -167,9 +165,7 @@ nav ul li:last-child {
 /*** Formatting and typography ***/
 
 body {
-  background: #fafafa;
-  background: hsla(326, 3%, 98%, 1);
-  color: #151c1d;
+  background: hsla(218, 2%, 32%, 1);
   color: hsla(190, 16%, 9%, 1);
   font: normal 16px Calluna, Georgia, serif;
   font: normal 1rem Calluna, Georgia, serif;
@@ -177,12 +173,11 @@ body {
 
 a,
 a:visited {
-  color: #21759b;
-  color: hsla(190, 65%, 36%, 1);
+  color: hsla(220, 84%, 65%, 1);
 }
 
 header {
-  background: hsla(190, 45%, 82%, 1);
+  background: hsla(190, 10%, 99.5%, 1);
   text-align: center;
 }
 
@@ -205,6 +200,10 @@ nav {
   background: hsla(200, 10%, 96%, 1);
   font: normal 400 16px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   font: normal 400 1rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+}
+
+.post {
+  background: hsla(190, 10%, 99.5%, 1);
 }
 
 .post header {
