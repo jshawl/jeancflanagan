@@ -61,7 +61,7 @@ textarea {
 
 body {
   height: 100%;
-  margin: 0 auto;
+  margin: 0 auto 3em;
   max-width: 100%; /* Responsive resizing */
 }
 
@@ -353,7 +353,7 @@ nav {
   }
 
   .cardicle {
-    margin: .5em 1em;
+    margin: 1em 1em 0;
   }
 
 }
