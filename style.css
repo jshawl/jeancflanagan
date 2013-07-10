@@ -131,8 +131,8 @@ header a {
 }
 
 header h1 {
-  font-size: 32px;
-  font-size: 2rem;
+  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 header h2 {
@@ -166,15 +166,13 @@ nav {
 
 .archive {
   margin: 0 auto;
-  width: 16em;
+  width: 100%;
 }
 
 .cardicle {
-  float: left;
   list-style: none;
   margin: 0 auto;
-  max-width: 16em;
-  padding: .5em;
+  padding: .5em 0;
   width: 100%;
 }
 
@@ -193,7 +191,7 @@ nav {
   box-shadow: hsla(200, 10%, 85%, .8) 0 2px 1px 1px;
   color: hsla(190, 16%, 9%, 1);
   line-height: 1.375;
-  min-height: 16em;
+  min-height: 12em;
   padding: .75em;
 }
 
@@ -217,8 +215,82 @@ nav {
 
 /*** Media queries ***/
 
-@media screen and (min-width: 120em) {
-  /* i.e. 1920px */
+@media screen and (min-width: 15em) {
+  /* i.e. 240px */
+  
+}
+
+@media screen and (min-width: 20em) {
+  /* i.e. 320px */
+  
+  .cardicle {
+    max-width: 20em;
+  }
+}
+
+@media screen and (min-width: 30em) {
+  /* i.e. 480px */ 
+
+  .cardicle {
+    max-width: 25em;
+  }
+}
+
+@media screen and (min-width: 42em) {
+  /* i.e. 672px */
+
+  .archive {
+    max-width: 42em;
+  }
+
+  .cardicle {
+    float: left;
+    margin: 0 .5em;
+    width: 20em;
+  }
+
+  .cardicle article {
+    min-height: 16em;
+  }
+
+}
+
+@media screen and (min-width: 52em) {
+  /* i.e. 832px */
+
+  .archive {
+    max-width: 52em;
+  }
+
+  .cardicle {
+    width: 25em;
+  }
+
+}
+
+@media screen and (min-width: 64em) {
+  /* i.e. 1024px */
+
+  .archive {
+    max-width: 64em;
+  }
+
+  .cardicle {
+    width: 20em;
+  }
+
+}
+
+@media screen and (min-width: 90em) {
+  /* i.e. 1440px */
+
+  .archive {
+    max-width: 78em;
+  }
+
+  .cardicle {
+    width: 25em;
+  }
 
 }
 
@@ -227,57 +299,12 @@ nav {
 
 }
 
-@media screen and (min-width: 90em) {
-  /* i.e. 1440px */
+@media screen and (min-width: 120em) {
+  /* i.e. 1920px */
 
-}
-
-@media screen and (min-width: 80em) {
-  /* i.e. 1280px */
-  
 }
 
 @media screen and (min-width: 70em) {
   /* i.e. 1120px */
 
-}
-
-@media screen and (min-width: 64em) {
-  /*i.e. 1024px */
-
-}
-
-@media screen and (min-width: 60em) {
-  /* i.e. 960px */
-
-}
-
-@media screen and (min-width: 48em) {
-  /* i.e. 768px */
-
-}
-
-@media screen and (min-width: 40em) {
-  /* i.e. 640px */
-
-}
-
-@media screen and (min-width: 30em) {
-  /* i.e. 480px */ 
-
-}
-
-@media screen and (min-width: 25em) {
-  /* i.e. 400px */ 
-
-}
-
-@media screen and (min-width: 20em) {
-  /* i.e. 320px */
-
-}
-
-@media screen and (min-width: 15em) {
-  /* i.e. 240px */
-  
 }
