@@ -71,12 +71,13 @@ header {
 }
 
 header hgroup {
+  line-height: 1.5;
   margin: .5em;
 }
 
 nav {
-  margin: .5em auto;
-  padding: .5em 0;
+  margin: 0 auto;
+  padding: .75em 0;
 }
 
 nav ul {
@@ -141,7 +142,6 @@ header h2 {
 }
 
 nav {
-  background: hsla(200, 0%, 92%, 1);
   font: normal 400 16px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   font: normal 400 1rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
@@ -214,11 +214,6 @@ nav {
 
 
 /*** Media queries ***/
-
-@media screen and (min-width: 15em) {
-  /* i.e. 240px */
-  
-}
 
 @media screen and (min-width: 20em) {
   /* i.e. 320px */
