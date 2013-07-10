@@ -96,11 +96,14 @@ nav ul li:last-child {
 
 /*** Formatting and typography ***/
 
-body {
-  background: hsla(218, 2%, 32%, 1);
+html {
   color: hsla(190, 16%, 8%, 1);
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
+}
+
+body {
+  background: hsla(218, 2%, 32%, 1);
 }
 
 a,
@@ -110,15 +113,16 @@ a:visited,
 }
 
 h1 {
-  font: normal 400 1.375em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 600 1.375em/2 Calluna, Georgia, serif;
 }
 
 h2 {
-  font: normal 600 1.25em/2 Calluna, Georgia, serif;
+  font: normal 400 1.25em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h3 {
-  font: normal 600 1.125em/2 Calluna, Georgia, serif;
+ color: hsla(190, 16%, 16%, 1);
+  font: normal 400 1.125em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h4 {
@@ -141,19 +145,16 @@ blockquote {
 }
 
 .banner h1 {
-  font-size: 28px;
-  font-size: 1.75rem;
+  font-size: 1.75em;
 }
 
 .banner h2 {
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.5;
 }
 
 nav {
-  font: normal 400 16px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  font: normal 400 1rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 .post {
@@ -170,11 +171,13 @@ nav {
 }
 
 .post header h1 {
-  font-size: 1.375em;
+  font: normal 400 1.375em/1.375 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0 0 .25em;
 }
 
 .post header h2 {
-  font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font-size: .875em;
+  line-height: 1.375;
 }
 
 .post p {
@@ -225,7 +228,6 @@ nav {
 }
 
 .cardicle article footer {
-  font: normal 400 14px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   text-align: right;
 }
@@ -236,6 +238,10 @@ nav {
 @media screen and (min-width: 20em) {
   /* i.e. 320px */
   
+  .banner h1 {
+    font-size: 2em;
+  }
+
   .cardicle {
     max-width: 20em;
   }
@@ -244,7 +250,7 @@ nav {
 
 @media screen and (min-width: 25em) {
   /* i.e. 400px */
-  
+
   .post {
     padding: 0 8% 3em;
   }
@@ -254,8 +260,9 @@ nav {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
+  .banner,
   .post {
-    font-size: 120%;
+    font-size: 1.1875em;
   }
 
   .cardicle {
@@ -267,8 +274,12 @@ nav {
 @media screen and (min-width: 42em) {
   /* i.e. 672px */
 
+  .banner,
   .post {
-    font-size: 125%;
+    font-size: 1.25em;
+  }
+
+  .post {
     max-width: 42em;
   }
 
@@ -332,6 +343,7 @@ nav {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
+  .banner,
   .post {
     font-size: 150%;
   }
