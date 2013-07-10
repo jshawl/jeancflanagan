@@ -8,7 +8,7 @@ title: Home
   <li class="cardicle">
     <a href="{{ post.url }}">
       <article>
-        <h1>{{ post.title | markdownify }}</h1>
+        <h1>{{ post.title }}</h1>
         <p>{{ post.excerpt | markdownify }}</p>
         <footer>Published {% if post.source != 'here' %}on{% endif %} {{ post.source }}<br> <time datetime="{{ post.date | date: "%Y-%m-%d" }}T{{ post.date | date: "%H:%M" }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time>
         </footer>
