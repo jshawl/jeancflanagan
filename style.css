@@ -66,11 +66,21 @@ body {
 }
 
 header {
-  margin-top: 5%;
+  margin: 0 8%;
+}
+
+header hgroup {
+  margin: .5em;
+}
+
+nav {
+  margin: .5em auto;
+  width: 15em;
 }
 
 nav ul {
-  text-align: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
 nav ul li {
@@ -81,6 +91,20 @@ nav ul li {
 nav ul li:last-child {
   margin: 0;
 }
+
+.post {
+  margin: 1em 5%;
+}
+
+.post header {
+  margin: .5em;
+}
+
+.post p {
+  line-height: 1.375;
+  padding-bottom: .5em;
+}
+
 
 /*** Cards ***/
 
@@ -115,7 +139,7 @@ nav ul li:last-child {
   color: #151c1d;
   color: hsla(190, 16%, 9%, 1);
   font: normal 400 16px Calluna, Georgia, serif;
-  font: normal 400 1em Calluna, Georgia, serif;
+  font: normal 400 1rem Calluna, Georgia, serif;
   line-height: 1.375;
   min-height: 16em;
   padding: .25em .75em;
@@ -124,7 +148,8 @@ nav ul li:last-child {
 .cardicle article h1 {
   color: #21759b;
   color: hsla(190, 65%, 36%, 1);
-  font: normal 600 1.2em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 600 20px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 600 1.25rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   margin: 0;
 }
 
@@ -141,13 +166,6 @@ nav ul li:last-child {
 
 /*** Formatting and typography ***/
 
-* {
-  -moz-transition: 100ms;
-  -webkit-transition: 100ms;
-  -o-transition: 100ms;
-  transition: 100ms;
-}
-
 body {
   background: #fff;
   background: hsla(320, 100%, 100%, 1);
@@ -163,7 +181,7 @@ a:visited {
   color: hsla(190, 65%, 36%, 1);
 }
 
-header hgroup {
+header {
   text-align: center;
 }
 
@@ -179,6 +197,17 @@ header h1 {
 header h2 {
   font-size: 16px;
   font-size: 1rem;
+}
+
+.post header {
+  font: normal 600 16px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 600 1rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  line-height: 1.375;
+}
+
+.post header h1 {
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 

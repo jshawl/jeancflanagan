@@ -4,7 +4,7 @@ layout: all
 <article class="post" role="main">
   <header role="contentinfo">
     <h1>{{ page.title }}</h1>
-    <p>Published on {% if page.source != 'here' %}<a href="{{ page.sourceurl }}">{{ page.source }}</a></p><p>{% endif %}<time datetime="{{ page.date | date: "%Y-%m-%d" }}T{{ page.date | date: "%H:%M" }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time></p>
+    <h3>Published on {% if page.source != 'here' %}<a href="{{ page.sourceurl }}">{{ page.source }}</a></h3><h3>{% endif %}<time datetime="{{ page.date | date: "%Y-%m-%d" }}T{{ page.date | date: "%H:%M" }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time></h3>
   </header>
   {{ content }}
 </article>
