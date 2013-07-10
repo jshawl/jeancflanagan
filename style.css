@@ -65,14 +65,13 @@ body {
   max-width: 100%; /* Responsive resizing */
 }
 
-header {
+.banner {
   margin: 0;
-  padding: .5em 0 0 0;
+  padding: 1em 0 0 0;
 }
 
-header hgroup {
-  line-height: 1.5;
-  margin: .5em;
+.banner hgroup {
+  padding: .5em 0;
 }
 
 nav {
@@ -94,19 +93,6 @@ nav ul li:last-child {
   margin: 0;
 }
 
-.post {
-  padding: 1em 5%;
-}
-
-.post header {
-  margin: .5em;
-}
-
-.post p {
-  line-height: 1.375;
-  padding-bottom: .5em;
-}
-
 
 /*** Formatting and typography ***/
 
@@ -122,23 +108,51 @@ a:visited {
   color: hsla(138, 37.5%, 59.5%, 1);
 }
 
-header {
+h1 {
+  font: normal 400 1.375em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 2;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+blockquote {
+
+}
+
+.banner {
   background: hsla(190, 10%, 99.5%, 1);
   text-align: center;
 }
 
-header a {
+.banner a {
   text-decoration: none;
 }
 
-header h1 {
+.banner h1 {
   font-size: 28px;
   font-size: 1.75rem;
 }
 
-header h2 {
+.banner h2 {
   font-size: 16px;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 nav {
@@ -148,17 +162,29 @@ nav {
 
 .post {
   background: hsla(190, 10%, 99.5%, 1);
+  margin: .5em auto 3em;
+  max-width: 42em;
+  padding: 1em 5%;
 }
 
 .post header {
-  font: normal 400 16px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  font: normal 400 1rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  line-height: 1.375;
+  margin: .5em;
+  padding: 1em 0;
+  text-align: center;
 }
 
 .post header h1 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font: normal 400 1.375em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  padding: 0 0 .25em 0;
+}
+
+.post header h2 {
+  font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+}
+
+.post p {
+  line-height: 1.375;
+  padding-bottom: .5em;
 }
 
 
@@ -224,8 +250,21 @@ nav {
 
 }
 
+@media screen and (min-width: 25em) {
+  /* i.e. 400px */
+  
+  .post {
+    padding: 0 8%;
+  }
+
+}
+
 @media screen and (min-width: 30em) {
-  /* i.e. 480px */ 
+  /* i.e. 480px */
+
+  .post {
+    font-size: 120%;
+  }
 
   .cardicle {
     max-width: 25em;
@@ -235,6 +274,11 @@ nav {
 
 @media screen and (min-width: 42em) {
   /* i.e. 672px */
+
+  .post {
+    font-size: 125%;
+    max-width: 42em;
+  }
 
   .archive {
     max-width: 42em;
@@ -273,6 +317,10 @@ nav {
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
+  .post {
+    font-size: 137.5%;
+  }
+
   .archive {
     max-width: 63em;
   }
@@ -290,6 +338,10 @@ nav {
 
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
+
+  .post {
+    font-size: 150%;
+  }
 
   .archive {
     max-width: 66em;
