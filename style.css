@@ -202,6 +202,10 @@ nav {
   padding-bottom: .5em;
 }
 
+.post ul {
+  padding: .5em 2em;
+}
+
 .contentinfo {
   color: hsla(138, 10%, 85%, 1);
   font: normal 400 .875em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
