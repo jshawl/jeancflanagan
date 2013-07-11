@@ -1,9 +1,10 @@
 # Website for Jean C. Flanagan
 ## Begun 2013-06-17
+## by Oliver Pattison and Jean Flanagan
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static site using Jekyll.
 
-This design of this site is licensed under a CC-BY-NC-SA [(Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License)](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US).
+The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Commons Attribution-NonCommercial 3.0 Unported License)](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US). You can feel free to use elements of the design in your own projects without inquiry, but please link to http://jeancflanagan.com or http://oliverpattison.org if you borrow from it significantly or cite it in your documentation. If you have questions about the license or design, you can contact Oliver Pattison at oliverpattison@gmail.com.
 
 ### Goals
 
