@@ -108,7 +108,7 @@ nav ul li:last-child {
 .contentinfo ul li {
   display: inline-block;
   list-style: none;
-  margin: 0 .5em;
+  margin: 0 .25em;
 }
 
 
@@ -253,8 +253,7 @@ nav {
 }
 
 .cardicle article h1 {
-  font: normal 400 20px 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  font: normal 400 1.25rem 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.25em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 .cardicle article p {
