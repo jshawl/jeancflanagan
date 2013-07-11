@@ -24,3 +24,8 @@ The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Comm
 - About page
 
 ### /TODO/ Implementation Details
+
+
+#### Notes:
+
+- Remote added 2013-07-11 at oliverpattison.org:/home/opattison/git/jeancflanagan.git
