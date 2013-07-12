@@ -217,6 +217,7 @@ nav {
 }
 
 .contentinfo a {
+    display: block;
     text-decoration: none;
 }
 
@@ -297,6 +298,10 @@ a:focus {
 
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
+
+  .contentinfo a {
+    display: inline;
+  }
 
   .banner,
   .post {
