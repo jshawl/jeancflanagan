@@ -1,6 +1,6 @@
 # Website for Jean C. Flanagan
-## Begun 2013-06-17
-## by Oliver Pattison and Jean Flanagan
+
+by Oliver Pattison and Jean Flanagan (code/design: CC-BY-NC, content: CC-BY)
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static site using Jekyll.
 
@@ -29,3 +29,4 @@ The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Comm
 #### Notes:
 
 - Remote added 2013-07-11 at oliverpattison.org:/home/opattison/git/jeancflanagan.git
+- Begun 2013-06-17
