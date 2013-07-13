@@ -78,13 +78,14 @@ nav {
   padding: .75em 0;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
-  width: 4em;
+  line-height: 1.5;
+  margin: 0 .5em 0 0;
 }
 
-nav ul li:last-child {
-  margin: 0;
+nav li .active {
+  border-bottom: 4px hsla(0, 0%, 96%, 1) solid;
 }
 
 .post {
