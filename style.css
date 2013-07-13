@@ -229,7 +229,6 @@ nav {
 
 .archive {
   margin: .5em auto;
-  width: 100%;
 }
 
 .cardicle {
@@ -312,6 +311,7 @@ a:focus {
 
   .cardicle {
     max-width: 25em;
+    transition: 0;
   }
 
 }
@@ -336,6 +336,7 @@ a:focus {
   .cardicle {
     float: left;
     margin: .5em;
+    transition: 400ms;
     width: 20em;
   }
 
@@ -357,7 +358,7 @@ a:focus {
   }
 
   .cardicle article {
-    min-height: 15em;
+    min-height: 15.5em;
   }
 
 }
@@ -376,6 +377,7 @@ a:focus {
 
   /* Becomes 3 columns for the first time here. */
   .cardicle {
+    transition: 400ms;
     width: 20em;
   }
 
@@ -415,7 +417,7 @@ a:focus {
   }
 
   .cardicle article {
-    min-height: 15em;
+    min-height: 15.5em;
   }
 
 }
