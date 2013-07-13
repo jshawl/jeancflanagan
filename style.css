@@ -1,7 +1,6 @@
 /*** Resets ***/
 
 /* following adapted from HTML5 Reset */
-
 html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   background: transparent;
   border: 0;
@@ -11,16 +10,9 @@ html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquo
   padding: 0;
   text-decoration: none;
   vertical-align: baseline;
-}                 
-
-img,
-object,
-embed {
-  max-width: 100%;
 }
 
 /* following adapted from HTML5 Boilerplate */
-
 article,
 aside,
 details,
@@ -42,6 +34,12 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
 html,
 button,
 input,
@@ -50,6 +48,7 @@ textarea {
   font-family: sans-serif;
 }
 
+/* Following adapted from Paul Irish */
 * { 
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -79,14 +78,9 @@ nav {
   padding: .75em 0;
 }
 
-nav ul {
-  margin: 0 auto;
-  width: 100%;
-}
-
 nav ul li {
   display: inline-block;
-  margin-right: 1em;
+  width: 4em;
 }
 
 nav ul li:last-child {
