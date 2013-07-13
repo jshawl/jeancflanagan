@@ -1,7 +1,6 @@
 /*** Resets ***/
 
 /* following adapted from HTML5 Reset */
-
 html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   background: transparent;
   border: 0;
@@ -11,16 +10,9 @@ html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquo
   padding: 0;
   text-decoration: none;
   vertical-align: baseline;
-}                 
-
-img,
-object,
-embed {
-  max-width: 100%;
 }
 
 /* following adapted from HTML5 Boilerplate */
-
 article,
 aside,
 details,
@@ -42,6 +34,12 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
 html,
 button,
 input,
@@ -50,6 +48,17 @@ textarea {
   font-family: sans-serif;
 }
 
+* {
+  transition: 
+    all 150ms ease-out,
+    box-shadow 200ms ease-out,
+    color 200ms ease-out,
+    font-size 50ms linear,
+    max-width 0,
+    width 0;
+}
+
+/* Following adapted from Paul Irish */
 * { 
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -79,18 +88,10 @@ nav {
   padding: .75em 0;
 }
 
-nav ul {
-  margin: 0 auto;
-  width: 100%;
-}
-
-nav ul li {
+nav li {
   display: inline-block;
-  margin-right: 1em;
-}
-
-nav ul li:last-child {
-  margin: 0;
+  line-height: 1.5;
+  margin: 0 .5em 0 0;
 }
 
 .post {
@@ -128,6 +129,11 @@ a,
 a:visited,
 .cardicle article h1 {
   color: hsla(138, 37.5%, 59.5%, 1);
+}
+
+a:hover,
+a:focus {
+  color: hsla(138, 37.5%, 59.5%, .7)
 }
 
 h1 {
@@ -177,9 +183,14 @@ nav {
 }
 
 .post,
+.cardicle {
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+}
+
+.post,
 .cardicle article {
   background: hsla(138, 10%, 99.5%, 1);
-  box-shadow: hsla(138, 37.5%, 59.5%, .5) 0 4px 0 0;
+  border-bottom: hsla(138, 37.5%, 59.5%, 1) 4px solid;
   line-height: 1.375;
 }
 
@@ -225,14 +236,13 @@ nav {
 /*** Cards ***/
 
 .archive {
-  margin: 0 auto;
-  width: 100%;
+  margin: .5em auto;
+  transition: all 0;
 }
 
 .cardicle {
   list-style: none;
-  margin: 0 auto;
-  padding: 1em 0 0;
+  margin: 1em auto;
   width: 100%;
 }
 
@@ -242,18 +252,11 @@ nav {
 
 .cardicle a article:hover, 
 .cardicle a article:focus {
-  box-shadow: hsla(138, 37.5%, 59.5%, 1) 0 4px 0 0;
-}
-
-a:hover,
-a:focus {
-  color: hsla(138, 37.5%, 59.5%, .7)
+  box-shadow: hsla(138, 37.5%, 59.5%, 1) 0 2px 0 0;
 }
 
 .cardicle article {
-  background: hsla(138, 10%, 99.5%, 1);
   color: hsla(138, 16%, 10%, 1);
-  line-height: 1.375;
   min-height: 12em;
   padding: .75em;
 }
@@ -310,6 +313,7 @@ a:focus {
 
   .cardicle {
     max-width: 25em;
+    transition: 0;
   }
 
 }
@@ -333,7 +337,8 @@ a:focus {
   /* becomes 2 columns for the first time here */
   .cardicle {
     float: left;
-    margin: 0 .5em;
+    margin: .5em;
+    transition: 0;
     width: 20em;
   }
 
@@ -396,7 +401,7 @@ a:focus {
   }
 
   .cardicle {
-    margin: 1em 1em 0;
+    margin: 1em;
   }
 
 }

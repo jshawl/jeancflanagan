@@ -13,7 +13,7 @@ The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Comm
 - Semantic, maintainable HTML
 - Mobile-first CSS
 - Responsive, high performance design
-- Typographic-focused design - few images except for photo content
+- Few images except for photo content, mostly typography and simple styles
 
 ### Content
 
