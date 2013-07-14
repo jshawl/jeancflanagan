@@ -12,7 +12,7 @@ html, body, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquo
   vertical-align: baseline;
 }
 
-/* following adapted from HTML5 Boilerplate */
+/* following four adapted from HTML5 Boilerplate */
 article,
 aside,
 details,
@@ -32,6 +32,7 @@ html,
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+
 }
 
 img,
@@ -48,72 +49,31 @@ textarea {
   font-family: sans-serif;
 }
 
-* {
-  transition: 
-    all 150ms ease-out,
-    box-shadow 200ms ease-out,
-    color 200ms ease-out,
-    font-size 50ms linear,
-    max-width 0,
-    width 0;
-}
 
-/* Following adapted from Paul Irish */
+/* Box-sizing borrowed from Paul Irish */
 * { 
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/***! END Resets ***/
 
-/*** Layout ***/
+/*** Universal transitions ***/
 
-body {
-  height: 100%;
-  margin: 0 auto 1em;
-  max-width: 100%; /* Responsive resizing */
+* {
+  transition: 
+    all 200ms ease-out,
+    box-shadow 200ms ease-out,
+    color 250ms ease-out,
+    font-size 50ms ease-out,
+    max-width 0,
+    width 0;
 }
 
-.banner {
-  margin: 0;
-  padding: 1em 0 0 0;
-}
+/*** END Universal transitions ***/
 
-.banner hgroup {
-  padding: .5em 0;
-}
-
-nav {
-  margin: 0 auto;
-  padding: .75em 0;
-}
-
-nav li {
-  display: inline-block;
-  line-height: 1.5;
-  margin: 0 .5em 0 0;
-}
-
-.post {
-  margin: 1em auto 0;
-  max-width: 42em;
-  padding: 1em 5% 2em;
-}
-
-.contentinfo {
-  clear: both;
-  margin: 0 auto;
-  padding: 2em 0;
-}
-
-.contentinfo ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 .25em;
-}
-
-
-/*** Formatting and typography ***/
+/*** Basic structure and formatting ***/
 
 html {
   color: hsla(138, 16%, 10%, 1)
@@ -123,21 +83,24 @@ html {
 
 body {
   background: hsla(218, 2%, 32%, 1);
+  height: 100%;
+  margin: 0 auto 1em;
+  max-width: 100%; /* Responsive resizing */
 }
 
 a,
 a:visited,
-.cardicle article h1 {
+.card article h1 {
   color: hsla(138, 37.5%, 59.5%, 1);
 }
 
 a:hover,
 a:focus {
-  color: hsla(138, 37.5%, 59.5%, .7)
+  color: hsla(138, 37.5%, 59.5%, .7);
 }
 
 h1 {
-  font: normal 600 1.375em/2 Calluna, Georgia, serif;
+  font: normal 400 1.375em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h2 {
@@ -159,8 +122,15 @@ blockquote {
   padding: .5em 1em;
 }
 
+/*** END Basic structure and formatting ***/
+
+/*** Component styles ***/
+/** Site header - banner and navigation **/
+/* Banner/nav basic and shared */
 .banner {
   background: hsla(138, 10%, 99.5%, 1);
+  margin: 0;
+  padding: 1em 0 0 0;
   text-align: center;
 }
 
@@ -168,9 +138,13 @@ blockquote {
   text-decoration: none;
 }
 
+/* Banner hgroup only */
+.banner hgroup {
+  padding: .5em 0;
+}
+
 .banner h1 {
-  font-size: 1.75em;
-  line-height: 1.5;
+  font: normal 600 1.75em/1.5 Calluna, Georgia, serif;
 }
 
 .banner h2 {
@@ -178,53 +152,37 @@ blockquote {
   line-height: 1.5;
 }
 
+/* Navigation only */
 nav {
   font: normal 400 1em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0 auto;
+  padding: .75em 0;
 }
 
-.post,
-.cardicle {
-  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+nav li {
+  display: inline-block;
+  line-height: 1.5;
+  margin: 0 .5em 0 0;
 }
 
-.post,
-.cardicle article {
-  background: hsla(138, 10%, 99.5%, 1);
-  border-bottom: hsla(138, 37.5%, 59.5%, 1) 4px solid;
-  line-height: 1.375;
-}
-
-.post header {
-  padding: 1em 0;
-  text-align: center;
-}
-
-.post header h1 {
-  font: normal 400 1.375em/1.375 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  margin: 0 0 .25em;
-}
-
-.post header h2 {
-  font-size: .875em;
-  line-height: 1.375;
-}
-
-.post p {
-  padding-bottom: .5em;
-}
-
-.post ul {
-  padding: .5em 2em;
-}
-
+/** Site footer **/
 .contentinfo {
+  clear: both;
   color: hsla(138, 10%, 85%, 1);
-  font: normal 400 .875em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  margin: 0 auto;
+  padding: 2em 0;
   text-align: center;
 }
 
-.contentinfo ul {
-  font-size: 1.142857143em;
+.contentinfo ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 .25em;
+}
+
+.contentinfo p {
+  font-size: .875em;
 }
 
 .contentinfo a {
@@ -232,48 +190,120 @@ nav {
     text-decoration: none;
 }
 
-
-/*** Cards ***/
-
+/** Archive (card container) **/
 .archive {
   margin: .5em auto;
   transition: all 0;
 }
 
-.cardicle {
-  list-style: none;
-  margin: 1em auto;
-  width: 100%;
+/** Posts, pages and cards **/
+/* Fundamental page */
+.page {
+  margin: 1em auto 0;
+  max-width: 42em;
+  padding: 1em 5% 3em;
 }
 
-.cardicle a {
+/* Shared page/card styles */
+.page,
+.card {
+  box-shadow: hsla(218, 2%, 10%, .5) 0 -1px 10px 1px;
+}
+
+.page,
+.card article {
+  background: hsla(138, 10%, 99.5%, 1);
+  border-bottom: hsla(138, 37.5%, 59.5%, 1) 4px solid;
+  line-height: 1.375;
+}
+
+/* Page-specific */
+.page header {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.page header h1 {
+  line-height: 1.375;
+  margin: 0 0 .25em;
+}
+
+.page header h2 {
+  font-size: .875em;
+  line-height: 1.375;
+}
+
+.page p {
+  padding: 0 0 .5em;
+}
+
+.page ul {
+  padding: .5em 2em;
+}
+
+.page footer {
+  margin: .5em;
+  padding: .5em;
+}
+
+.more {
+  background: hsla(138, 37.5%, 59.5%, .1);
+  font-family: 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  padding: .5em;
   text-decoration: none;
 }
 
-.cardicle a article:hover, 
-.cardicle a article:focus {
-  box-shadow: hsla(138, 37.5%, 59.5%, 1) 0 2px 0 0;
+.next {
+  float: left;
 }
 
-.cardicle article {
-  color: hsla(138, 16%, 10%, 1);
+.next:before {
+  content: "← ";
+}
+
+.previous {
+  float: right;
+}
+
+.previous:after {
+  content: " →";
+}
+
+/* Card-specific */
+.card {
+  margin: 1em auto;
+  list-style: none;
+}
+
+.card article {
+  color: hsla(138, 16%, 10%, 1); /* get rid of that default link color */
   min-height: 12em;
   padding: .75em;
 }
 
-.cardicle article h1 {
+.card article h1 {
   font: normal 400 1.25em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
-.cardicle article p {
+.card article p {
   margin: 1em 0;
 }
 
-.cardicle article footer {
+.card article footer {
   font: normal 400 .875em 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
   text-align: right;
 }
 
+.card a {
+  text-decoration: none;
+}
+
+.card a article:hover, 
+.card a article:focus {
+  box-shadow: hsla(138, 37.5%, 59.5%, 1) 0 2px 0 0;
+}
+
+/*** END Component styles ***/
 
 /*** Media queries ***/
 
@@ -284,7 +314,7 @@ nav {
     font-size: 2em;
   }
 
-  .cardicle {
+  .card {
     max-width: 20em;
   }
 
@@ -293,7 +323,7 @@ nav {
 @media screen and (min-width: 25em) {
   /* i.e. 400px */
 
-  .post {
+  .page {
     padding: 0 8% 3em;
   }
 
@@ -307,11 +337,11 @@ nav {
   }
 
   .banner,
-  .post {
+  .page {
     font-size: 1.1875em;
   }
 
-  .cardicle {
+  .card {
     max-width: 25em;
     transition: 0;
   }
@@ -322,12 +352,13 @@ nav {
   /* i.e. 704px */
 
   .banner,
-  .post {
+  .page {
     font-size: 1.25em;
   }
 
-  .post {
+  .page {
     max-width: 42em;
+    padding: 0 4em 3em;
   }
 
   .archive {
@@ -335,14 +366,14 @@ nav {
   }
 
   /* becomes 2 columns for the first time here */
-  .cardicle {
+  .card {
     float: left;
     margin: .5em;
     transition: 0;
     width: 20em;
   }
 
-  .cardicle article {
+  .card article {
     min-height: 17em;
   }
 
@@ -355,11 +386,11 @@ nav {
     max-width: 52em;
   }
 
-  .cardicle {
+  .card {
     width: 25em;
   }
 
-  .cardicle article {
+  .card article {
     min-height: 15em;
   }
 
@@ -368,9 +399,9 @@ nav {
 @media screen and (min-width: 64em) {
   /* i.e. 1024px */
 
-  .post {
+  .page {
     font-size: 137.5%;
-    padding: 0 9% 3em;
+    padding: 0 4em 3em;
   }
 
   .archive {
@@ -378,11 +409,11 @@ nav {
   }
 
   /* Becomes 3 columns for the first time here. */
-  .cardicle {
+  .card {
     width: 20em;
   }
 
-  .cardicle article {
+  .card article {
     min-height: 17em;
   }
 
@@ -391,16 +422,11 @@ nav {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
-  .banner,
-  .post {
-    font-size: 150%;
-  }
-
   .archive {
     max-width: 66em;
   }
 
-  .cardicle {
+  .card {
     margin: 1em;
   }
 
@@ -413,12 +439,19 @@ nav {
     max-width: 81em;
   }
 
-  .cardicle {
+  .banner,
+  .page {
+    font-size: 150%;
+  }
+
+  .card {
     width: 25em;
   }
 
-  .cardicle article {
+  .card article {
     min-height: 15em;
   }
 
 }
+
+/*** END Media queries ***/
