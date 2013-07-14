@@ -11,10 +11,10 @@ layout: all
   {{ content }}
   <footer>
   {% if page.next.url %}
-    <a class="more next" href="{{page.next.url}}" title="Later article: {{page.next.title}}">Later</a>
+    <a class="more next" href="{{page.next.url}}" title="Later article: {{page.next.title}}">Next</a>
   {% endif %}
   {% if page.previous.url %}
-    <a class="more previous" href="{{page.previous.url}}" title="Earlier article: {{page.previous.title}}">Earlier</a>
+    <a class="more previous" href="{{page.previous.url}}" title="Earlier article: {{page.previous.title}}">Previous</a>
   {% endif %}
   </footer>
 </article>
