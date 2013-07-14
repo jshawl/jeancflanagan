@@ -1,6 +1,5 @@
 ---
-published: true
-layout: post
+layout: article
 title: "Facing the research-practice divide in science education"
 date: "2013-01-14 10:00"
 excerpt: "Unfortunately, science education research and practice tend to exist in parallel universes. If we care about science education, we have to face the research-practice divide."

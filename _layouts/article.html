@@ -1,7 +1,7 @@
 ---
 layout: all
 ---
-<article class="post" role="main">
+<article class="page" role="main">
   <header>
     <hgroup>
       <h1>{{ page.title }}</h1>
@@ -9,4 +9,12 @@ layout: all
     </hgroup>
   </header>
   {{ content }}
+  <footer>
+  {% if page.next.url %}
+    <a class="more next" href="{{page.next.url}}" title="Later article: {{page.next.title}}">Later</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a class="more previous" href="{{page.previous.url}}" title="Earlier article: {{page.previous.title}}">Earlier</a>
+  {% endif %}
+  </footer>
 </article>
