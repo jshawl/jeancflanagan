@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Hobbies: idle pastimes or keys to science engagement and education?"
 date: 2013-04-22 10:01
 excerpt: Many scientists report hobbies as being influential to their career plans growing up. What does this mean for science education?
@@ -15,7 +15,7 @@ Of course other factors strongly influence persistence in science education and 
 
 The possibility that hobbies can influence future involvement in science raises the issue of privilege. Individual, home-based hobbies require money, time, and parental engagement. I was fortunate to have a family that was able and eager to fund and support my science pastimes – many other bright young students are not so lucky. These students must rely on what schools and science centers can provide, and depending on their location, sometimes only school. While schools and science centers can provide similar types of engagement for students, by these activities are usually much more structured and less self-directed than personal hobbies. They also tend to have limited time frames, whereas personal hobbies can be pursued at will across many years. 
 
-In "[Look, Don't Touch](http://www.orionmagazine.org/index.php/articles/article/6929 "Look, Don't Touch" by David Sobel, Orion Magazine")," an essay published last year in *Orion Magazine*,  environmental educator [David Sobel](http://www.antiochne.edu/employeedirectory/david-sobel/ "David Sobel - Antioch University Faculty") bemoaned the state of informal environmental education "programs." For young elementary-age children, he argued, most programs aren't actually informal enough – they typically come with long lists of rules. Supporting his case, he summarized a review of surveys of adults in environmental careers:
+In “[Look, Don't Touch](http://www.orionmagazine.org/index.php/articles/article/6929 "“Look, Don't Touch” by David Sobel, Orion Magazine"),” an essay published last year in *Orion Magazine*,  environmental educator [David Sobel](http://www.antiochne.edu/employeedirectory/david-sobel/ "David Sobel - Antioch University Faculty") bemoaned the state of informal environmental education "programs." For young elementary-age children, he argued, most programs aren't actually informal enough – they typically come with long lists of rules. Supporting his case, he summarized a review of surveys of adults in environmental careers:
 
 >…environmentalists talk about free play and exploration in nature, and family members who focused their attention on plants or animal behavior. They don’t talk much about formal education and informal nature education. Only in late childhood and adolescence do summer camp, teachers, and environmental clubs start to show up as being contributors to the individual’s environmental values and behaviors. It seems that allowing children to be “untutored savages” early on can lead to environmental knowledge in due time.
 
