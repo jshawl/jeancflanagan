@@ -350,6 +350,7 @@ nav li {
 
   .page {
     max-width: 42em;
+    padding: 0 4em 3em;
   }
 
   .archive {
@@ -392,7 +393,7 @@ nav li {
 
   .page {
     font-size: 137.5%;
-    padding: 0 9% 3em;
+    padding: 0 4em 3em;
   }
 
   .archive {
