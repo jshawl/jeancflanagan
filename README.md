@@ -4,7 +4,7 @@ by Oliver Pattison and Jean Flanagan
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static site using Jekyll.
 
-The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Commons Attribution-NonCommercial 3.0 Unported License)](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US). You can feel free to use elements of the design in your own projects without inquiry, but please link to http://jeancflanagan.com or http://oliverpattison.org if you borrow from it significantly or cite it in your documentation. If you have questions about the license or design, you can contact Oliver Pattison at oliverpattison@gmail.com.
+The *content* of this site (in _posts directory) is licensed under CC-BY [(Creative Commons Attribution 3.0 Unported License)](http://creativecommons.org/licenses/by/3.0/deed.en_US) except for articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media. All content is authored by Jean Flanagan.
 
 ### Goals
 
@@ -25,8 +25,9 @@ The *design* of this site is licensed liberally under a CC-BY-NC [(Creative Comm
 
 ### /TODO/ Implementation Details
 
-
 #### Notes:
 
-- Remote added 2013-07-11 at oliverpattison.org:/home/opattison/git/jeancflanagan.git
+- Remote moved 2013-07-12 to GitHub
+- Remote added 2013-07-11 at Webfaction Domain
+- First commit to Git 2013-07-08
 - Begun 2013-06-17

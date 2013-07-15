@@ -17,4 +17,3 @@ title: About
 <p>All written content is by Jean Flanagan.</p>
 <p>All articles published exclusively on this website are licensed <a href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a> (Creative Commons Attribution 3.0 License) by Jean Flanagan.</p>
 <p>Articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media.</p>
-<p>The design of this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">CC-BY-NC</a> (Creative Commons Attribution-NonCommercial 3.0 License) by Oliver Pattison and Jean Flanagan.</p>
