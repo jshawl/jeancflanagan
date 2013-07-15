@@ -191,7 +191,7 @@ nav li {
 }
 
 /** Archive (index excerpt container) **/
-.archive {
+.excerpt-index {
   margin: .5em auto;
   transition: all 0;
 }
@@ -361,7 +361,7 @@ nav li {
     padding: 0 4em 3em;
   }
 
-  .archive {
+  .excerpt-index {
     max-width: 42em;
   }
 
@@ -382,7 +382,7 @@ nav li {
 @media screen and (min-width: 54em) {
   /* i.e. 864px */
 
-  .archive {
+  .excerpt-index {
     max-width: 52em;
   }
 
@@ -404,7 +404,7 @@ nav li {
     padding: 0 4em 3em;
   }
 
-  .archive {
+  .excerpt-index {
     max-width: 63em;
   }
 
@@ -422,7 +422,7 @@ nav li {
 @media screen and (min-width: 80em) {
   /* i.e. 1280px */
 
-  .archive {
+  .excerpt-index {
     max-width: 66em;
   }
 
@@ -435,7 +435,7 @@ nav li {
 @media screen and (min-width: 90em) {
   /* i.e. 1440px */
 
-  .archive {
+  .excerpt-index {
     max-width: 81em;
   }
 
