@@ -233,7 +233,8 @@ blockquote {
   margin: .5em 0 .75em;
 }
 
-.page ul {
+.page ul,
+.page ol {
   margin: .75em 2em;
 }
 
