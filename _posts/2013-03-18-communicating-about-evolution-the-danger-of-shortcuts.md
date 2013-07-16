@@ -41,6 +41,6 @@ As Gregory emphasized in his review article, evolution by natural selection is a
 
 Evolution is tricky. For those of us who understand it, its power to make everything else in biology crystal clear is deceptive. Most of us had naive ideas about evolution as children or students. As we progressed in our studies of science these were replaced with more accurate mental models. But we are the exceptions — most people don’t go on to major in science or think about it for a living. Yet as citizens they are often called upon to make decisions that require an understanding of evolution. And as humans, an understanding of evolution can contribute to a deeper appreciation of nature. Shortcuts are catchy — droning on about populations and generations can get tedious and wordy. It takes talent to communicate about evolution both accurately and compellingly, but experts and science writers and educators have a responsibility to get it right.
 
-[^1]: Evolution: Education and Outreach used to be open-access, then it was toll-access, and now everything from January 2013 onward is open-access, but you’ll still have trouble getting the older issues.
+[^1]: *Evolution: Education and Outreach* used to be open-access, then it was toll-access, and now everything from January 2013 onward is open-access, but you’ll still have trouble getting the older issues.
 
 [^2]: Amusingly, the British meaning of “attractive” for “fit” is actually a little more accurate in cases of sexual selection — though we’d still have to change it to “Reproduction of the Fittest.”
