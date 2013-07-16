@@ -100,16 +100,16 @@ a:focus {
 }
 
 h1 {
-  font: normal 400 1.375em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.5em/1.33333333 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h2 {
-  font: normal 400 1.25em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.25em/1.4 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h3 {
   color: hsla(138, 16%, 18%, 1);
-  font: normal 400 1.125em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
+  font: normal 400 1.125em/1.33333333 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
 }
 
 h4 {
@@ -144,7 +144,7 @@ blockquote {
 }
 
 .banner h1 {
-  font: normal 600 1.75em/1.5 Calluna, Georgia, serif;
+  font: normal 600 1.75em/1.25 Calluna, Georgia, serif;
 }
 
 .banner h2 {
