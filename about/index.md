@@ -12,6 +12,7 @@ title: About
 <li>RSS</li>
 <li><a href="https://twitter.com/jeancflanagan">Twitter</a></li>
 <li><a href="https://plus.google.com/110091158982110640683/posts">Google+</a></li>
+</ul>
 
 <h2>Licensing</h2>
 <p>All written content is by Jean Flanagan. Articles published exclusively on this website are licensed <a href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a> (Creative Commons Attribution 3.0 License) by Jean Flanagan. Articles that were originally published elsewhere (whether archived here in full or represented by snippets) are subject to the copyright specified by those media. Photos are by Jean Flanagan unless otherwise attributed and are licensed <a href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a> (Creative Commons Attribution 3.0 License)</p>
