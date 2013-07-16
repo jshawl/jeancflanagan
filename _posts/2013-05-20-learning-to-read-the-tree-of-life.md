@@ -25,7 +25,7 @@ The [National Evolutionary Synthesis Center](http://www.nescent.org/ "NESCent") 
 
 This suggestion dovetails well with the expectations for science practices set forward in the NRC's *A Framework for K-12 Science Education* (from which the NGSS were developed):
 
->By grade 12, students should be able to: Represent and explain phenomena with multiple types of models—for example, represent molecules with 3-D models or with bond diagrams—and move flexibly between model types when different ones are most useful for different purposes.
+> By grade 12, students should be able to: Represent and explain phenomena with multiple types of models—for example, represent molecules with 3-D models or with bond diagrams—and move flexibly between model types when different ones are most useful for different purposes.
 
 Perhaps if students were given a totally different kind of visual model for common ancestry to use alongside the traditional tree metaphor, they could overcome some of the difficulties and learn something about the nature of scientific modeling in the process.
 
