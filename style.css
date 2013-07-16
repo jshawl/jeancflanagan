@@ -164,7 +164,7 @@ blockquote {
 }
 
 /** Site footer **/
-.content-info {
+.site-info {
   clear: both;
   color: hsla(138, 10%, 85%, 1);
   font: normal 400 1em/2 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
@@ -173,17 +173,17 @@ blockquote {
   text-align: center;
 }
 
-.content-info ul li {
+.site-info ul li {
   display: inline-block;
   list-style: none;
   margin: 0 .25em;
 }
 
-.content-info p {
+.site-info p {
   font-size: .875em;
 }
 
-.content-info a {
+.site-info a {
     display: block;
     text-decoration: none;
 }
@@ -233,7 +233,8 @@ blockquote {
   margin: .5em 0 .75em;
 }
 
-.page ul {
+.page ul,
+.page ol {
   margin: .75em 2em;
 }
 
@@ -328,7 +329,7 @@ blockquote {
 @media screen and (min-width: 30em) {
   /* i.e. 480px */
 
-  .content-info a {
+  .site-info a {
     display: inline;
   }
 

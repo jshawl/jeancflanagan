@@ -1,5 +1,6 @@
 ---
 layout: article
+category: writing
 title: "Science education at Science Online 2013"
 date: 2013-02-25 10:01
 excerpt: "Highlights from the sessions focussed on science education"

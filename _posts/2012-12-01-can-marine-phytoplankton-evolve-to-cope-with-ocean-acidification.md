@@ -1,5 +1,6 @@
 ---
 layout: article
+category: writing
 title: Can marine phytoplankton evolve to cope with ocean acidification?
 date: 2012-12-01 10:01
 excerpt: New evidence suggests that an important marine alga could quickly evolve adaptations to ocean acidification.
