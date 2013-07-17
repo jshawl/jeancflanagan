@@ -67,8 +67,8 @@ textarea {
     box-shadow 200ms ease-out,
     color 250ms ease-out,
     font-size 50ms ease-out,
-    max-width 0,
-    width 0;
+    max-width 0ms,
+    width 0ms;
 }
 
 /*** END Universal transitions ***/
@@ -76,7 +76,7 @@ textarea {
 /*** Basic structure and formatting ***/
 
 html {
-  color: hsla(138, 16%, 10%, 1)
+  color: hsla(138, 16%, 10%, 1);
   font: normal 400 16px/1 Calluna, Georgia, serif;
   font: normal 400 1rem/1 Calluna, Georgia, serif;
 }
@@ -198,7 +198,7 @@ hr {
 /** Archive (index excerpt container) **/
 .excerpt-index {
   margin: .5em auto;
-  transition: all 0;
+  transition: none;
 }
 
 /** Posts, pages and excerpts **/
@@ -383,7 +383,7 @@ figcaption img {
 
   .excerpt {
     max-width: 25em;
-    transition: 0;
+    transition: none;
   }
 
 }
@@ -409,7 +409,7 @@ figcaption img {
   .excerpt {
     float: left;
     margin: .5em;
-    transition: 0;
+    transition: none;
     width: 20em;
   }
 
