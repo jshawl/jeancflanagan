@@ -250,10 +250,10 @@ hr {
   padding: 1em .5em;
 }
 
-.footnotes li > a {
-  display: block;
+.reversefootnote {
   float: right;
-  margin: -2em -1.5em;
+  left: 1.5em;
+  position: relative;
 }
 
 /* Next/Previous navigation */
