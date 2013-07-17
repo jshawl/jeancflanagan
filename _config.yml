@@ -1,5 +1,7 @@
 name: Jean C. Flanagan
 pygments: true
+layouts: ./_layouts
+plugins: ./_plugins
 
 permalink: /:year-:month-:day-:title
 markdown: kramdown
