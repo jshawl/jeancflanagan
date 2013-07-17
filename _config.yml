@@ -1,3 +1,5 @@
 name: Jean C. Flanagan
 pygments: true
+
 permalink: /:year-:month-:day-:title
+markdown: kramdown
