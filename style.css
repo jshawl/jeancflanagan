@@ -321,26 +321,19 @@ figure {
   margin: 1em 0;
 }
 
-.right {
-  float: right;
-  margin: 0 0 0 1em;
-  max-width: 50%;
+figure img {
+  display: block;
 }
 
+.right,
 .left {
-  float: left;
-  margin: 0 1em 0 0;
-  max-width: 50%;
+  max-width: 100%; /* 50% at smaller viewports */
 }
 
 figcaption {
   font: normal 400 .875em/1.5 'Calluna Sans', 'Open Sans', Calibri, sans-serif;
-  padding: .5em 1em;
+  padding: .5em;
   text-align: center;
-}
-
-figcaption img {
-  display: block;
 }
 
 /*** END Component styles ***/
@@ -364,7 +357,7 @@ figcaption img {
   /* i.e. 400px */
 
   .page {
-    padding: 0 8% 3em;
+    padding: 0 3em 3em;
   }
 
 }
@@ -388,6 +381,28 @@ figcaption img {
 
 }
 
+@media screen and (min-width: 38em) {
+
+  .page {
+    padding: 0 4em 3em;
+  }
+
+  /* Image layout and sizes */
+
+  .right {
+    float: right;
+    margin: .5em -4em .5em 1.5em;
+    max-width: 50%;
+  }
+
+  .left {
+    float: left;
+    margin: .5em 1.5em .5em -4em;
+    max-width: 50%;
+  }
+
+}
+
 @media screen and (min-width: 44em) {
   /* i.e. 704px */
 
@@ -398,7 +413,6 @@ figcaption img {
 
   .page {
     max-width: 42em;
-    padding: 0 4em 3em;
   }
 
   .excerpt-index {
