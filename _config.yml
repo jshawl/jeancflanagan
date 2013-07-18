@@ -3,6 +3,8 @@ tagline: science education specialist and writer
 author:
   name: Jean C. Flanagan
   email: jeancflanagan@gmail.com
+url: http://jeancflanagan.com
+
 pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
