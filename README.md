@@ -4,7 +4,7 @@ by Oliver Pattison and Jean Flanagan
 
 This is a collaborative project created by Oliver Pattison and Jean Flanagan. Design, concept and structure are primarily by Oliver, while content is all Jean's. The site is built using (hopefully) modern, standards-compliant HTML and CSS, as a static site using Jekyll.
 
-The *content* of this site (in _posts directory) is licensed under CC-BY [(Creative Commons Attribution 3.0 Unported License)](http://creativecommons.org/licenses/by/3.0/deed.en_US) except for articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media. All content is authored by Jean Flanagan.
+The *content* of this site (in _posts directory) is licensed under CC-BY [(Creative Commons Attribution 3.0 Unported License)](http://creativecommons.org/licenses/by/3.0/deed.en_US). There is an exception for articles (or snippets linking to articles) that were originally published elsewhere are subject to the copyright specified by those media. All content is authored by Jean Flanagan.
 
 ### Goals
 
@@ -20,14 +20,20 @@ The *content* of this site (in _posts directory) is licensed under CC-BY [(Creat
 - Writing index
     - Self-published content
     - Content published elsewhere
-- Photography
+- Photography (later)
 - About page
 
-### /TODO/ Implementation Details
+### Implementation Details
+
+- The entire site was designed intentionally around *real* written content and no ipsums or fillers.
+- Minimalism drives the design of the site, so the site was built around the most basic and spare forms.
+- Limit use of plugins except where absolutely required
+- No fancy responsive image tricks, just ~1.5-2x scaled images with heavy optimization (10-40 quality JPEGs run through ImageOptim). Why? There will not be enough images to justify a JavaScript or `<picture>` solution. Most images will be relatively small in file size, and larger feature images will be worth the size/performance trade-off on high resolution screens.
 
 #### Notes:
 
 - Remote moved 2013-07-12 to GitHub
 - Remote added 2013-07-11 at Webfaction Domain
 - First commit to Git 2013-07-08
-- Begun 2013-06-17
+- First code on 2013-06-17
+- Initial concept and first sketches 2013-05-27
