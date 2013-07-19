@@ -1,6 +1,8 @@
 ## Rsync config ##
 
 # Assumes that ssh is already set up on the server.
+# Assumes that ImageOptim and ImageOptim-CLI are installed
+
 ssh_user       = "opattison@oliverpattison.org"
 local_images   = "_images" # typically called "_images"
 local_site     = "_site" # typically called "_site"
@@ -9,6 +11,13 @@ remote_site    = "webapps/development"
 
 rsync_delete   = true
 include_images = "--include='*.png' --include='*.jpg' --include='*/' --exclude='*'"
+
+## "rake optimize" to optimize a folder of images in ImageOptim-CLI
+desc "run a folder of images through ImageOptim-CLI"
+task :optimize do
+  system "imageoptim -d #{local_images}/"
+  puts "## Images optimized ##"
+end
 
 ## "rake load" to load images in the local image directory to your server
 desc "deploy Jekyll images to remote server via rsync"
