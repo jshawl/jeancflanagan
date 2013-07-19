@@ -21,14 +21,14 @@ end
 
 ## "rake load" to load images in the local image directory to your server
 desc "deploy Jekyll images to remote server via rsync"
-task :load do
+task :load => :optimize do
   system "rsync -avze ssh #{include_images} #{local_images}/ #{ssh_user}:#{remote_images}/"
   puts "## Deploying images via rsync ##"
 end
 
 ## "rake deploy" to deploy _site to your server
 desc "deploy Jekyll _site to remote server via rsync"
-task :deploy do
+task :deploy => :load do
   system "rsync -avze ssh #{"--delete" unless rsync_delete == false} #{local_site}/ #{ssh_user}:#{remote_site}/"
   puts "## Deploying _site via rsync ##"
 end
