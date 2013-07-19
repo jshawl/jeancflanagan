@@ -16,8 +16,6 @@ Views expressed here are my own and do not represent my employer(s).
 - [Twitter](https://twitter.com/jeancflanagan)
 - [Google+](https://plus.google.com/110091158982110640683/posts)
 
-## About this website
-
 ## Licensing
 
 All written content is by Jean Flanagan. 
