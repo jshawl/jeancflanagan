@@ -9,5 +9,5 @@ pygments: true
 layouts: ./_layouts
 plugins: ./_plugins
 
-permalink: /:year/:title
+permalink: /:year/:title/
 markdown: kramdown
